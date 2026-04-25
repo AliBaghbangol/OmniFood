@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
     <title>OmniFood - Desktop</title>
   </head>
 
@@ -72,7 +80,7 @@
       </div>
     </section>
     <section class="container feature">
-      <p>How it Works</p>
+      <p class="accent-text">How it Works</p>
       <h2>Your daily dose of health in 3 simple steps</h2>
       <section class="grid--2x3">
         <div>
@@ -113,6 +121,94 @@
           <img src="images/app/app-screen-3.png" alt="application photo" />
         </figure>
       </section>
+    </section>
+    <section class="container meals">
+      <p class="accent-text">Meals</p>
+      <h2 class="meals__heading">Omnifood AI chooses from +5,000 recipes</h2>
+      <div class="grid--1x3">
+        <div class="meal__card">
+          <figure class="card__img">
+            <img
+              src="images/meals/meal-1.jpg"
+              alt=" a photo of Japanese Gyozas food"
+              class="img"
+            />
+          </figure>
+          <figcaption class="card__description">
+            <div class="tags">
+              <span class="tag tag-vegetarian">Vegetarian</span>
+            </div>
+            <h3 class="card__heading">Japanese Gyozas</h3>
+            <ul class="card__list">
+              <li class="card__item">
+                <ion-icon class="card-icon" name="flame-outline"></ion-icon>
+                <span><strong>650</strong> calories</span>
+              </li>
+              <li class="card__item">
+                <ion-icon
+                  class="card-icon"
+                  name="restaurant-outline"
+                ></ion-icon>
+                <span>NutriScore &reg; <strong>74</strong></span>
+              </li>
+              <li class="card__item">
+                <ion-icon class="card-icon" name="star-outline"></ion-icon>
+                <span><strong>4.9</strong> rating (537)</span>
+              </li>
+            </ul>
+          </figcaption>
+        </div>
+        <div class="meal__card">
+          <figure class="card__img">
+            <img
+              src="images/meals/meal-2.jpg"
+              alt=" a photo of Japanese Gyozas food"
+              class="img"
+            />
+          </figure>
+          <figcaption class="card__description">
+            <div class="tags">
+              <span class="tag tag-vagan">Vegan</span
+              ><span class="tag tag-paleo">Paleo</span>
+            </div>
+            <h3 class="card__heading">Avocado Salad</h3>
+            <ul class="card__list">
+              <li class="card__item">
+                <ion-icon class="card-icon" name="flame-outline"></ion-icon>
+                <span><strong>400</strong> calories</span>
+              </li>
+              <li class="card__item">
+                <ion-icon
+                  class="card-icon"
+                  name="restaurant-outline"
+                ></ion-icon>
+                <span>NutriScore &reg; <strong>92</strong></span>
+              </li>
+              <li class="card__item">
+                <ion-icon class="card-icon" name="star-outline"></ion-icon>
+                <span><strong>4.8</strong> rating (441)</span>
+              </li>
+            </ul>
+          </figcaption>
+        </div>
+        <div>
+          <h3 class="meals-card__heading">Works with any diet:</h3>
+          <ul class="card__list meal-list">
+            <li>Vegetarian</li>
+            <li>Vegan</li>
+            <li>Pescatarian</li>
+            <li>Gluten-free</li>
+            <li>Lactose-free</li>
+            <li>Keto</li>
+            <li>Paleo</li>
+            <li>Low FODMAP</li>
+            <li>Kid-friendly</li>
+          </ul>
+        </div>
+      </div>
+      <div class="links">
+        <a href="#" class="link">See all recipes &rarr;</a>
+      </div>
     </section>
   </body>
 </html>
