@@ -136,6 +136,12 @@ a {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.grid--1x4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 6.4rem;
+}
+
 .grid--2x3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -526,7 +532,7 @@ a {
 /* Price */
 .pricing {
     margin-top: 8rem;
-    margin-bottom: 9.6rem;
+    margin-bottom: 4.6rem;
 }
 
 .pricing-grid {
@@ -602,4 +608,24 @@ a {
     text-align: center;
     font-size: 1.6rem;
     margin-top: 4.6rem;
+}
+
+.feature-heading {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+.feature-element > p{
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+.feature-icon {
+    color: #e67e22;
+    height: 3.2rem;
+    width: 3.2rem;
+    background-color: var(--secondary-color);
+    padding: 1.6rem;
+    border-radius: 100%;
+    margin-bottom: 1rem;
 }
