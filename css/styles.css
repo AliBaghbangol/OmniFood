@@ -522,3 +522,84 @@ a {
     transform: scale(1.1);
     transition: all 0.5s;
 }
+
+/* Price */
+.pricing {
+    margin-top: 8rem;
+    margin-bottom: 9.6rem;
+}
+
+.pricing-grid {
+   column-gap: 64px;
+}
+
+.price__card {
+    border: 2px solid var(--secondary-color);
+    border-radius: 9px;
+    padding: 2.4rem 4.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.price__card.card1 {
+    justify-self: flex-end;
+}
+
+.price__card.card2 {
+        justify-self: flex-start;
+    background-color: var(--secondary-color);
+}
+
+.card__header {
+    text-align: center;
+}
+
+.price-heading {
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 0;
+}
+
+.price-card {
+    font-weight: 600;
+    color: #333;
+    font-size: 6.2rem;
+    margin-bottom: 1.6rem;
+}
+
+.price-card > span {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-right: 0.6rem;
+}
+
+.price-description {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #6f6f6f;
+}
+
+.tick-icon {
+    color: #087f5b;
+}
+
+.price-list {
+    margin-bottom: 6.4rem;
+}
+
+.btn-card {
+    margin-top: auto;
+    align-self: center;
+}
+
+.pricing-text {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 4.6rem;
+}
